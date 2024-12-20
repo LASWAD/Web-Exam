@@ -1,0 +1,117 @@
+﻿
+/*sm*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;900;1000&display=swap');
+* {
+    font-family: 'Cairo';
+}
+
+@media(max-width:767px)  {
+
+
+
+    .carousel{
+
+
+    }
+
+
+    .devimg {
+        width: 25px;
+        height: 25px;
+    }
+
+
+
+    .navbar-nav .nav-link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .navbar-nav .dropdown-menu > li > a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+
+    .navbar-toggler { 
+        color: #4eaedf;
+        margin-top: 0px;
+    }
+
+
+
+    #img-brand {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+
+   /* .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus {
+        background-color: #3757a4;
+        color: #fff;
+        padding-right: 40px; 
+    }*/
+
+
+    .account-left{
+      /*  float:right;
+       border:1px solid blue;*/
+      
+    }
+
+
+    p {
+        font-size: 12px;
+       /* color: green;*/
+    }
+}
+
+/*md*/
+@media(min-width:768px) and (max-width:991px) {
+   
+    p {
+       /* font-size: 36px;*/
+        
+    }
+
+
+
+    .carousel {
+        display: none;
+    }
+}
+
+/*lg*/
+@media(min-width:992px) and (max-width:1199px) {
+   
+    .account-left {
+        float: left;
+    }
+
+    p {
+        font-size: 48px;
+      
+    }
+}
+
+/*xl*/
+@media(min-width:1200px) and (max-width:1399px) {
+    
+    .account-left {
+        float: left;
+    }
+}
+
+/*xxl*/
+@media(min-width:1400px) {
+    
+    .account-left {
+        float: left;
+    }
+}

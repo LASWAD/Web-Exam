@@ -1,0 +1,80 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+body {
+    font-family: 'Almarai', sans-serif;
+    font-size: 15px;
+    height: 1000px;
+    margin-top: 80px; /*لأنها fixed*/
+}
+
+.navbar {
+    min-height: 60px;
+}
+
+.carouselImg {
+    height: 400px;
+}
+
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #4eaedf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#img-brand {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+    .navbar-nav .nav-link.active {
+        color: #e2ecc7;
+    }
+
+        .navbar-nav .nav-link.active:hover {
+            background-color: dodgerblue;
+        }
+
+
+
+/*-------------------------------------------------------------------------------------*/
+.dropdown-menu {
+    border-top: 7px solid #3757a4;
+    padding: 10px 15px;
+    min-width: 200px;
+}
+
+    .dropdown-menu > li > a {
+        color: #a5a3a3;
+        padding: 10px 25px;
+        font-size: 14px;
+        transition: all 0.5s ease;
+    }
+
+        .dropdown-menu > li > a:hover,
+        .dropdown-menu > li > a:focus {
+            background-color: #3757a4;
+            color: #fff;
+            border-radius: 5px;
+            padding-right: 40px;
+        }
+
+.dropdown-divider {
+    background-color: #3757a4;
+}
+
+
+
+/*-------------------------------------------------------------------------------------*/

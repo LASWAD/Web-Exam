@@ -1,0 +1,60 @@
+﻿.hov {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.hov:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* القاعدة العامة للكارد */
+.col {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* تأثير التكبير عند مرور الماوس */
+    .col:hover {
+        transform: scale(1.05); /* تكبير العنصر */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* إضافة ظل أكبر */
+    }
+
+/* تحسين مظهر الزر عند المرور */
+.btn:hover {
+    background-color: #f8f9fa; /* لون جديد عند المرور */
+    color: #000; /* تغيير لون النص */
+    transition: background-color 0.3s ease, color 0.3s ease; /* انتقال سلس */
+}
+
+
+
+
